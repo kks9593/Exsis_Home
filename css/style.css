@@ -141,11 +141,13 @@ footer {
 }
 
 .white-card {
-  background-color: #ffffff !important;
+  background-color: #f4f7ff !important;
   color: #000000 !important;
-  border: 1px solid #cccccc;
+  border: 1px solid #dee2f8;
   max-width: 400px;
   max-height: 270px;
+    font-family: 'Noto Sans KR', sans-serif;
+
 }
 
 .white-card h3 {
@@ -156,9 +158,9 @@ footer {
   color: #00aaff;
 }
 .white-Blue {
-  background-color: #ffffff !important;
+  background-color: #f4f7ff !important;
   color: #000000 !important;
-  border: 1px solid #cccccc;
+  border: 1px solid #dee2f8;
   max-width: 400px;
   max-height: 270px;
 }
@@ -169,7 +171,4 @@ footer {
 
 .white-blue i {
   color: #00aaff;
-}
-img {
-  image-rendering: auto; /* 또는 'crisp-edges', 'pixelated' 실험 가능 */
 }
