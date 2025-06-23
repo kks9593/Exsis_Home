@@ -170,3 +170,6 @@ footer {
 .white-blue i {
   color: #00aaff;
 }
+img {
+  image-rendering: auto; /* 또는 'crisp-edges', 'pixelated' 실험 가능 */
+}
