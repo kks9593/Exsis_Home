@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f1923;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #121e2d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00aaff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00aaff;
+}
+
+.hero {
+  padding: 100px 40px;
+  text-align: center;
+  background: linear-gradient(to right, #0f1923, #1f2a3a);
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #aaaaaa;
+}
+
+.section {
+  padding: 60px 40px;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-left: 5px solid #00aaff;
+  padding-left: 10px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background-color: #1e2c3d;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  border: 1px solid #2f3d52;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  border-color: #ffffff;
+}
+
+.service-card h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #ccc;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.icon-blue {
+  color: #00aaff;
+  margin-bottom: 10px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #121e2d;
+  color: #888;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.white-card {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #cccccc;
+  max-width: 400px;
+  max-height: 270px;
+}
+
+.white-card h3 {
+  color: #000000 !important;
+}
+
+.white-card i {
+  color: #00aaff;
+}
+.white-Blue {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #cccccc;
+  max-width: 400px;
+  max-height: 270px;
+}
+
+.white-blue h3 {
+  color: #000000 !important;
+}
+
+.white-blue i {
+  color: #00aaff;
+}
